@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: worker
+  labels:
+    name: worker-service
+    app: demo-voting-app
+spec:
+  ports:
+  - port: 5439
+    targetPort: 5439
+  selector:
+    name: worker-app-pod
+    app: demo-voting-app
