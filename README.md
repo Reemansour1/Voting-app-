@@ -7,8 +7,10 @@ d-touch Vagrantfile
 e-vagrant box add ubuntu/bionic64
 f-vagrant box list | grep bionic64
 ubuntu/bionic64     (virtualbox, 20210315.1.0)
+
 2-Initialize the Vagrant environment 
 vagrant.exe init ubuntu/bionic64 --force 
+
 3-edit the vagrant file configurations then boot up the machine
 vagrant.exe up
 after than use vagrant.exe ssh to log in to the guest Ubuntu VM
