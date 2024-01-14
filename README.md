@@ -82,7 +82,7 @@ helm version
 
 ----------------------------
 
-4. Deploment and services for Voting Application:
+4. Deploments and services for Voting Application:
  
  -Deployments:
 
