@@ -173,4 +173,7 @@ kubectl get secrets
 kubectl get pv
 
 kubectl get pvc
-kubectl get services
+
+Curl http://192.168.56.104:30004 to vote
+
+Curl http://192.168.56.104:30005 to see the result
