@@ -10,7 +10,7 @@ Prerequisites:
 
 - Helm installed
 
-  Using helm to trigger the application's deployment and services automaticslly in one command. 
+  Using helm to trigger the application's deployments and services automaticslly in one command. 
 
 - Kubernetes cluster up and running
   
