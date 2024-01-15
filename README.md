@@ -5,9 +5,11 @@ DevOps Task - Voting App
 Prerequisites:
 
 - Vagrant installed
+
   Vagrant is a tool for building and managing virtual machine environments in a single workflow.
 
 - Helm installed
+
   Using helm to trigger the application's deployment and services automaticslly in one command. 
 
 - Kubernetes cluster up and running
@@ -76,8 +78,7 @@ sudo kubectl get pods -n kube-system
 ---------------------------------------------------
 3. Install Helm:
 
-
-#Command#
+#Commands#
 
 curl https://baltocdn.com/helm/signing.asc | gpg --dearmor | sudo tee /usr/share/keyrings/helm.gpg > /dev/null
 
