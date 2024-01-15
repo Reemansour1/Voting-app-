@@ -5,9 +5,13 @@ DevOps Task - Voting App
 Prerequisites:
 
 - Vagrant installed
-- Helm installed
-- Kubernetes cluster up and running
+  Vagrant is a tool for building and managing virtual machine environments in a single workflow.
 
+- Helm installed
+  Using helm to trigger the application's deployment and services automaticslly in one command. 
+
+- Kubernetes cluster up and running
+  
 ##Getting Started##
 
 1. Create a local directory and Add the Vagrant box:
@@ -22,19 +26,30 @@ mkdir shared_resources
 
 touch Vagrantfile
 
-vagrant box add ubuntu/bionic64
+-adding a pre-built virtual machine (VM) image, known as a "box".
+
+#Command#
+vagrant box add ubuntu/bionic64 
+
+- list the vagrant box
+
+#Command#
 
 vagrant box list | grep bionic64
 
+- Initialize the Vagrant environment: 
+
+#Command#
+
 vagrant.exe init ubuntu/bionic64 --force
 
--Initialize the Vagrant environment, use Vagrant to provision the VM and Boot up the machine using:
+- Use Vagrant to provision the VM and Boot up the machine using:
 
 #Command#
 
 vagrant.exe up
 
--After that,log in to the guest Ubuntu VM using:
+- After that,log in to the guest Ubuntu VM using:
 
 #Command#
 
