@@ -31,6 +31,7 @@ touch Vagrantfile
 -adding a pre-built virtual machine (VM) image, known as a "box".
 
 #Command#
+
 vagrant box add ubuntu/bionic64 
 
 - list the vagrant box
